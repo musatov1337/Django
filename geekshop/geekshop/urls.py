@@ -21,9 +21,10 @@ from geekshop.views import index, contact
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('products/', include('mainapp.urls', namespace='products')),
+    path('products/', include('mainapp.urls', namespace='products'), name='products'),
+    path('auth/', include('authapp.urls', namespace='auth'), name='auth'),
     path('', index, name='index'),
-    path('contact/', contact, name='contact'),
+    path('contacts/', contact, name='contacts')
 ]
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
