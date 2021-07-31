@@ -1,0 +1,20 @@
+[
+  {
+      "category": "Стулья",
+      "name": "Супер стул",
+      "short_desk": "удобный стул",
+      "image": "products_images/product-4.jpg",
+      "description": "удобный стул",
+      "price": "2999.00",
+      "quanity": 2
+  },
+  {
+      "category": "Диваны",
+      "name": "Белый Диван",
+      "short_desk": "удобный диван",
+      "image": "products_images/product-3-sm.jpg",
+      "description": "удобный диван",
+      "price": "15600.00",
+      "quanity": 4
+  }
+]
